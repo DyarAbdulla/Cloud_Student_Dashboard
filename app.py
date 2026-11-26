@@ -7,7 +7,7 @@ import plotly.express as px
 # -------------------------------------
 st.set_page_config(
     page_title="داشبۆردی ئاستی خوێندکارانی AI",
-    page_description="Helllllllllllllllllllllllllllllllllllllllo"
+  
     page_icon="🎓",
     layout="wide"
 )
