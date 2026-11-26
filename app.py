@@ -96,7 +96,7 @@ df["ئاست"] = df["تێکڕا"].apply(performance_level)
 # -------------------------------------
 # 7. کارتەکانی ئامار (KPI Cards)
 # -------------------------------------
-col1, col2, col3, col4, col5 = st.columns(5)
+col1, col2, col3, col4, col5 ,col6,col7= st.columns(7)
 
 col1.metric(
     "کۆی خوێندکاران",
@@ -122,6 +122,15 @@ col5.metric(
     "هیوا عومەر حەسەن",
     len(df)
 )
+col6.metric(
+    "دیار عبداللە علی",
+    len(df)
+)
+col7.metric(
+    "drwd Muhamed Mustafa",
+    len(df)
+)
+
 
 st.divider()
 
